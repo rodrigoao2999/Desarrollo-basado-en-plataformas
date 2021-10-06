@@ -1,0 +1,50 @@
+body { font-family: Georgia; color: rgb(54, 54, 54); }
+#inner { padding: 10px 80px; margin: 80px auto; background: #fdfdfd; border: solid rgb(110, 3, 3); border-width: 8px 0 2px 0; } /*linea del top y linea del bottom*/
+.yui-gf { margin-bottom: 2em; padding-bottom: 2em; border-bottom: 3px solid rgb(32, 32, 32); }/*lineas que separan mi informacion*/ 
+
+
+#hd { margin: 2em 0 3em 0; padding-bottom: 3em; border-bottom: 4px solid rgb(88, 34, 34) } /*linea que separa el titulo de perfil*/
+#hd h2 { text-transform: uppercase; letter-spacing: 2px; } /*Con vertir texto en mayuscula y separacion de letras*/
+#bd, #ft { margin-bottom: 2em; } /*separacion hacia abajo del texto*/
+
+
+#ft { padding: 1em 0 5em 0; font-size: 92%; border-top: 1px solid #ccc; text-align: center; }
+#ft p { margin-bottom: 0; text-align: center;   }
+
+
+#hd h1 { font-size: 48px; text-transform: uppercase; letter-spacing: 3px; }
+h2 { font-size: 152% }
+h3, h4 { font-size: 122%; }
+h1, h2, h3, h4 { color: rgb(68, 68, 68); }
+p { font-size: 100%; line-height: 18px; padding-right: 3em; }
+a { color: #002fff }
+a:hover { text-decoration: none; }
+strong { font-weight: bold; }
+li { line-height: 24px; border-bottom: 1px solid #ccc; }
+p.enlarge { font-size: 144%; padding-right: 6.5em; line-height: 24px; }
+p.enlarge span { color: #000 }
+.contact-info { margin-top: 7px; }
+.first h2 { font-style: italic; }
+.last { border-bottom: 0 }
+
+
+
+a#pdf { display: block; float: left; background: rgb(66, 66, 66); color: rgb(255, 255, 255); padding: 8px 15px 8px 15px; margin-bottom: 10px; text-decoration: none;  }
+a#pdf:hover { background: #222; }
+
+.trabajo { position: relative; margin-bottom: 1em; padding-bottom: 1em; border-bottom: 1px solid #ccc; }
+.trabajo h4 { position: absolute; top: 0.35em; right: 0 }
+.trabajo p { margin: 0.75em 0 3em 0; }
+
+.last { border: none; }
+.skills-list {  margin: 0; }
+.skills-list ul { margin: 0; }
+.skills-list li { margin: 3px 0; padding: 3px 0; }
+.skills-list li span { font-size: 152%; display: block; margin-bottom: -2px; padding: 0 }
+.talento { width: 32%; float: left }
+.talento h2 { margin-bottom: 6px; }
+
+
+
+.yui-gf .yui-u{width:80.2%;}
+.yui-gf div.first{width:12.3%;}
