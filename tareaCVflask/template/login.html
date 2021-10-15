@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LOG IN CV</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/log.css')}}">
+  </head>
+  
+  <body style="background-image: url('static/images/imgLog/bg2.jpg')">
+    
+    <section class="form-login">
+      <form method="POST" action="/login">
+      <h5>LOG IN CV</h5>
+      <input name="email" class="controls" type="text" name="email" placeholder="Usuario">
+      <input name="password" class="controls" type="password" name="password" placeholder="password">
+      <input class="buttons" type="submit" name="" value="Ingresar">
+      <p><a href="#">¿Olvidastes tu Contraseña?</a></p>
+      </form>
+      
+
+    </section>
+
+  </body>
+</html>
